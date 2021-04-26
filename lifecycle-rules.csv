@@ -1,8 +1,0 @@
-Account-id,Bucket Name,Rule,properties
-590852515231,aa-gowtham-teest-bucket,PruneAbandonedMultipartUploads+hi,{'ID': 'PruneAbandonedMultipartUploads+hi', 'Prefix': '', 'Status': 'Enabled', 'Transition': {'Days': 30, 'StorageClass': 'STANDARD_IA'}, 'AbortIncompleteMultipartUpload': {'DaysAfterInitiation': 1}}
-590852515231,azeem-cw-logs,downgradeStorageClass,{'ID': 'downgradeStorageClass', 'Status': 'Enabled', 'Transition': {'Days': 30, 'StorageClass': 'INTELLIGENT_TIERING'}}
-590852515231,chidambaram-logs,Chidambaram-LCR(26-04),{'ID': 'Chidambaram-LCR(26-04)', 'Status': 'Enabled', 'Transition': {'Days': 30, 'StorageClass': 'ONEZONE_IA'}}
-590852515231,hansel-2304-logs-s3-ec2,transition-logs-storage-class,{'ID': 'transition-logs-storage-class', 'Status': 'Enabled', 'Transition': {'Days': 30, 'StorageClass': 'STANDARD_IA'}}
-590852515231,haritha-bucket-logs,haritha-LR,{'ID': 'haritha-LR', 'Status': 'Enabled', 'NoncurrentVersionTransition': {'NoncurrentDays': 30, 'StorageClass': 'GLACIER'}}
-590852515231,paramjeet-logs,bucket lifecycle policy ,{'ID': 'bucket lifecycle policy ', 'Status': 'Enabled', 'Transition': {'Days': 30, 'StorageClass': 'STANDARD_IA'}}
-590852515231,vishal-assignment-logs-bucket,vishal-assignment-lcr,{'ID': 'vishal-assignment-lcr', 'Status': 'Enabled', 'NoncurrentVersionTransition': {'NoncurrentDays': 30, 'StorageClass': 'GLACIER'}}
