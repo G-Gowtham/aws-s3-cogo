@@ -1,0 +1,12 @@
+{
+  "Rules": [
+    {
+      "ID": "Move to Glacier after sixty days (objects in logs/2015/)",
+      "Status": "Enabled",
+      "Transition": {
+        "Days": 60,
+        "StorageClass": "GLACIER"
+      }
+    }
+  ]
+}
